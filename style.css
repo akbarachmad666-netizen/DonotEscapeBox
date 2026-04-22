@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.text {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.room {
+  margin-top: 30px;
+}
+
+.item {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item:hover {
+  background: #334155;
+  transform: scale(1.08);
+}
+
+.inventory {
+  margin-top: 25px;
+}
+
+/* Keypad */
+.keypad {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.keys button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.keys button:hover {
+  background: #64748b;
+}
